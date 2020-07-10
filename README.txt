@@ -1,5 +1,6 @@
 Outputs appear after execution in the /router_logs directory
 These are routing tables after every update that added new information
+Since routers need to transfer data bilaterally one connection between two router will take up 2 ports one in router A, and one in router B, communication is performed by sending data to the corresponding receiving UDP port. Each new connection creates another port in both routers.
 Routers are defined in the routers.txt file following these rules:
 
 1. Each router has a separate id where 0 <= id <=8
