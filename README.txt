@@ -1,4 +1,4 @@
-# An Extremely simple demonstrative implementation of the ripv2 routing protocol
+An Extremely simple demonstrative implementation of the ripv2 routing protocol
 
 Outputs appear after execution in the /router_logs directory
 These are routing tables after every update that added new information
